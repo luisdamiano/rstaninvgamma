@@ -1,0 +1,18 @@
+Package: rstaninvgamma
+Type: Package
+Title: Draw samples from an inverse gamma via Stan
+Version: 0.1.0
+Date: 2023-01-30
+Author: Authors@R: c(person("Luis", "Damiano", email = "damiano.luis@gmail.com", role = "aut"))
+Maintainer: Luis Damiano <damiano.luis@gmail.com>
+Description: Use this R package to draw samples from an inverse gamma via Stan
+License: GPL (>=3)
+Copyright: (c) 2023
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.4.0),
+    Rcpp (>= 0.12.0)
+Imports:
+    rstan (>= 2.17)
+URL: https://github.com/luisdamiano/rstaninvgamma/
